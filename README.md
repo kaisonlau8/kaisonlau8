@@ -1,9 +1,5 @@
 # 👋 Hi there, I'm Kaison. 🏔️
 
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=kaisonlau8&row=1&column=7&no-frame=true&no-bg=true" alt="kaisonlau8"/>
-</div>
-
 ![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-F4D500?style=flat-square&logo=javascript&logoColor=black)
