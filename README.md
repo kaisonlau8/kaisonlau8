@@ -44,7 +44,7 @@ Judge       Agents          trusted samples → counter-intuitive insight → la
 
 | Product | One-liner | Status |
 | --- | --- | --- |
-| **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | Customers aren't silent — they just aren't speaking inside your CRM | Production (Mercury) · Private |
+| **[LeadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter)** | Customers aren't silent — they just aren't speaking inside your CRM | Mercury in production · Venus + sales APP in field test |
 | **VECT** | They say "it's fine" — the system sees they're leaving | Feishu-proven → SaaS prep |
 | **[TACT](https://github.com/LAN-Cloud-AI/TACT)** | The car isn't late yet — the system already sees where delay will form | Phase 0 contracts · Public |
 | **[Cloud Ledger](https://github.com/LAN-Cloud-AI/LAN_Cloud_Internal_Expense)** | Subscriptions & reimbursements on Workers / D1 / R2 | Public |
@@ -55,9 +55,9 @@ Judge       Agents          trusted samples → counter-intuitive insight → la
 
 | Repo | What it is | Visibility |
 | --- | --- | --- |
-| [leadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter) | Ingestion, job engine, multi-tenant RBAC, lead pool, Feishu / short-link delivery | Private |
+| [leadsHunter](https://github.com/LAN-Cloud-AI/leadsHunter) | Mercury production + Venus three-pool (ownership → org-assign → account-dispatch) and mobile API | Private |
 | [LH_evaluation_agent](https://github.com/LAN-Cloud-AI/LH_evaluation_agent) | Comment + post scoring: intent, summary, evidence, next action | Private |
-| [leadsHunter_APP](https://github.com/LAN-Cloud-AI/leadsHunter_APP) | Expo app: leads, push, deep links | Private |
+| [leadsHunter_APP](https://github.com/LAN-Cloud-AI/leadsHunter_APP) | Expo iOS/Android sales client: home / leads / notifications, Getui, 10:00 digest; Android beta | Private |
 | [LH_Training_Ground](https://github.com/LAN-Cloud-AI/LH_Training_Ground) | Industry + SKU training ground; skills sync back to production | Public |
 
 ### Company surface
@@ -94,7 +94,7 @@ Private links 404 if you are not a collaborator. That is expected.
 - **Service-ops diagnosis**: throughput, output value, gross margin, 1st/2nd maintenance, renewal, NSS — region compare, structure, anomaly hunt on **DMS / FineBI / Excel**.
 - **Inspection digitalization** & one-store-one-file on **Feishu bitable**, scored and turned into a reusable quarterly report pipeline.
 - **LLM in production**: DashScope / DeepSeek / Anthropic for summaries, risk tags, inspection linkage, disposition; custom agents rather than chat demos.
-- **Product loops I actually run**: crawler → warehouse → agent score → assign → Feishu / app delivery (LeadsHunter); DMS session keepalive → export → match → nudge (M-Hero).
+- **Product loops I actually run**: crawler → warehouse → agent score → three-pool assign → sales APP (LeadsHunter Venus; Mercury still the production cutover); DMS session keepalive → export → match → nudge (M-Hero).
 - **Full-stack**: Python (FastAPI, scrapers, agents), Node / Hono, Vue3, React + Vite, Expo, a bit of Go and Ruby.
 - **Glue that stays up**: Feishu bots + bitable, Cloudflare Workers / Access / D1 / R2, GitHub Actions, cron, launchd.
 - Comfortable owning the whole loop: business problem → data model → API → frontend → "it just runs every day".
